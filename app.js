@@ -142,11 +142,11 @@ function clickHandler(e) {
         var isPalindromeCheck = checkPalindromeForAllDateformats(date);
 
         if(isPalindromeCheck) {
-            outputArea.innerText = "Yayyy, your birthday is a palindrome";
+            outputArea.innerText = "Yayyy, your birthday is a palindrome 🎉🎉🎉";
         }
         else {
             var [countDays, nextDate] = nextPalindromeCount(date);
-            outputArea.innerText = "The next palindrome date is " + nextDate.day + "/" + nextDate.month + "/" + nextDate.year+", you missed it by "+ countDays + "days";
+            outputArea.innerText = "The next palindrome date is " + nextDate.day + "/" + nextDate.month + "/" + nextDate.year+", you missed it by "+ countDays + "days 😥";
         } 
         
     }
