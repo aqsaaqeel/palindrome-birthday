@@ -29,7 +29,7 @@ function numberToString(date) {
     else {
         strDate.month = date.month.toString();
     }
-    strDate.year = date.month.toString();
+    strDate.year = date.year.toString();
     return strDate;
 }
 
